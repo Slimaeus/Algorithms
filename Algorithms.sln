@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.DynamicProgrammi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.DynamicProgramming.Libs", "DynamicProgramming\Algorithms.DynamicProgramming.Libs\Algorithms.DynamicProgramming.Libs.csproj", "{8C7B1898-129F-4920-883C-E8A3C092CB6F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{9712FB2D-B857-4EE8-99F5-2BB32EA37380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms.Common.Console", "Common\Algorithms.Common.Console\Algorithms.Common.Console.csproj", "{7450DFF1-C961-4410-B8A4-DFB88D140531}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +41,10 @@ Global
 		{8C7B1898-129F-4920-883C-E8A3C092CB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C7B1898-129F-4920-883C-E8A3C092CB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C7B1898-129F-4920-883C-E8A3C092CB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7450DFF1-C961-4410-B8A4-DFB88D140531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7450DFF1-C961-4410-B8A4-DFB88D140531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7450DFF1-C961-4410-B8A4-DFB88D140531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7450DFF1-C961-4410-B8A4-DFB88D140531}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +54,7 @@ Global
 		{889DB775-09AD-49AC-A0BD-B0F43BE2F415} = {875FE529-7EEB-4556-BFE4-9A5DEB2A0117}
 		{80CFB97E-96B1-49EE-9267-B709EF7DA650} = {DA5DF829-2727-4D4C-9701-48C9B5FF6CED}
 		{8C7B1898-129F-4920-883C-E8A3C092CB6F} = {DA5DF829-2727-4D4C-9701-48C9B5FF6CED}
+		{7450DFF1-C961-4410-B8A4-DFB88D140531} = {9712FB2D-B857-4EE8-99F5-2BB32EA37380}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {241D5B68-C282-4E68-ABD8-2B08931778A1}
